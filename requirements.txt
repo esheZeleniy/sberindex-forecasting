@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+prophet
+lightgbm
+ruptures
+matplotlib
+seaborn
+pyyaml
+pyarrow
+fastparquet

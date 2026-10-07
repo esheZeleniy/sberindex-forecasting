@@ -1,0 +1,36 @@
+# SberIndex Hackathon — Time Series Forecasting Track
+# Paths
+paths:
+  consumption: data/consumption.parquet
+  market_access: data/market_access.parquet
+  output_dir: output
+
+# Target metric
+metric: MAE
+
+# Forecast horizons (months)
+horizons: [1, 3, 6, 12]
+
+# Models to use
+models:
+  - Prophet
+  - LightGBM
+
+# Train / test split (months)
+train_months: 12
+test_months: 12
+
+# Category filter (exact value present in the data)
+category_filter: "Все категории"
+
+# Top-N territories to keep
+top_n_territories: 3
+
+# ruptures (structural break detection)
+ruptures:
+  model: rbf
+  algo: Pelt
+  pen: 2.0
+
+# Seed for reproducibility
+random_seed: 42
