@@ -17,6 +17,9 @@
 * `config.yaml` — конфигурационный файл с гиперпараметрами моделей и путями к данным.
 * `requirements.txt` — список зависимостей для развертывания окружения.
 
+## Интерпретация
+https://disk.yandex.ru/d/zBzS7olMmVEQvA
+
 ## Запуск проекта
 ```bash
 # 1. Установка зависимостей
@@ -25,5 +28,5 @@ pip install -r requirements.txt
 # 2. Запуск пайплайна
 python main.py
 
-## Интерпретация
-https://disk.yandex.ru/d/zBzS7olMmVEQvA
+
+
