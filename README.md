@@ -24,3 +24,6 @@ pip install -r requirements.txt
 
 # 2. Запуск пайплайна
 python main.py
+
+## Интерпретация
+https://disk.yandex.ru/d/zBzS7olMmVEQvA
